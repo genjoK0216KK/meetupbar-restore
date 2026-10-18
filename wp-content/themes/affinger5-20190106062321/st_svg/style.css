@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'stsvg';
+  src:  url('fonts/stsvg.eot?21ogwj');
+  src:  url('fonts/stsvg.eot?21ogwj#iefix') format('embedded-opentype'),
+    url('fonts/stsvg.ttf?21ogwj') format('truetype'),
+    url('fonts/stsvg.woff?21ogwj') format('woff'),
+    url('fonts/stsvg.svg?21ogwj#stsvg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="st-svg-"], [class*=" st-svg-"] {
+  font-family: 'stsvg'!important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.st-svg-oukan:before {
+  content: "\e909";
+}
+.st-svg-menu:before {
+  content: "\e902";
+}
+.st-svg-menu_cut:before {
+  content: "\e903";
+}
+.st-svg-menu_thin:before {
+  content: "\e905";
+}
+.st-svg-close_thin:before {
+  content: "\e906";
+}
+.st-svg-close_cut:before {
+  content: "\e907";
+}
+.st-svg-close:before {
+  content: "\e908";
+}
+.st-svg-bigginer_r:before {
+  content: "\e900";
+}
+.st-svg-bigginer_l:before {
+  content: "\e904";
+}
+.st-svg-hateb:before {
+  content: "\e901";
+}
+
+.st-bigginer {
+  position:relative;
+}
+
+.st-svg-bigginer {
+  position:relative;
+}
+
+.st-svg-bigginer:before {
+  content: "\e904";
+  color:#FFEE58;
+  z-index:2;
+}
+
+.st-svg-bigginer:after {
+  content: "\e900";
+  position:absolute;
+  color:#388E3C;
+  z-index:1;
+  top:0;
+  left:0;
+}
